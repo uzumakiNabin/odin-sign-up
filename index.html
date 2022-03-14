@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="container">
+        <div class="imageContainer">
+            <p class="title">ODIN</p>
+            <p class="credit">Photo by <a href="https://unsplash.com/@zoltantasi">Zoltan Tasi</a> on <a href="https://unsplash.com">Unsplash.</a></p>
+        </div>
+        <div class="formContainer">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+            <p>You <em>know</em> you want to.</p>
+            <form action="#" method="post">
+                <fieldset class="formField">
+                    <legend>Let's do this!</legend>
+                    <div class="controlGroup">
+                        <label for="firstname">first name</label>
+                        <input type="text" name="firstname" id="firstname" pattern="[a-zA-Z]+" required>
+                    </div>
+                    <div class="controlGroup">
+                        <label for="lastname">last name</label>
+                        <input type="text" name="lastname" id="lastname" pattern="[a-zA-Z]+" required>
+                    </div>
+                    <div class="controlGroup">
+                        <label for="email">email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="controlGroup">
+                        <label for="phone">phone number</label>
+                        <input type="tel" name="phone" id="phone" required>
+                    </div>
+                    <div class="controlGroup">
+                        <label for="password">password</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <div class="controlGroup">
+                        <label for="confirmpass">confirm password</label>
+                        <input type="password" name="confirmpass" id="confirmpass">
+                    </div>
+                </fieldset>
+                <button type="submit" class="createBtn">Create Account</button>
+            </form>
+            <p class="logInText">Already have an account? <a href="#">Log in</a></p>
+        </div>
+    </div>
+</body>
+</html>
